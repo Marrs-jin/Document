@@ -1,3 +1,3 @@
 
 #Flowchart
-<img src=""C:\Users\dmgame\Documents\SafronovaResearch\Documentation\my-project\docs\Flowchart.png"" alt="Italian Trulli">
+<img src="http://127.0.0.1:8000/Flowchart.png" alt="Italian Trulli">
