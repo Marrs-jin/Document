@@ -34,6 +34,12 @@ Files are:
 
 Energies and matrix elements values are stored in folders within the Data folder named after the element in use, i.e. "Cs" or "BaII".
 
+Note: Data/Stylings has the custom styling and functionality for the HTML modals, which is what controls how the Help buttons and Info buttons pop up.
+However, these files are saved directly in the main directory of the web portal.
+
+Modification of how the pop ups look or function should be done
+on the files directly on the web portal. See "Uploading to Site" for information on how to access this directory.
+
 ###-Element subdirectories ("Data/BaII")
 Every element needs its own sub-folder, named in this convention: "Cs", "BaII", "Fr". These are located in "Data" as subdirectories.
 These folders need three files: datapol, rates1, and rates2.
