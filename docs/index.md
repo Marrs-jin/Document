@@ -10,4 +10,4 @@ how to generate other pages [say what other pages]
 3. How to run the computational codes
 
 The site can be reached at  
-<https://www1.udel.edu/atom>
+<a href="https://www1.udel.edu/atom" target="_blank">https://www1.udel.edu/atom</a>

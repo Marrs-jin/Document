@@ -4,17 +4,17 @@ This section details how to to push any changes to the live version of the web p
 ## Remote login
 Before accessing the site, users must either be at a UD IP address or remote login. To enable remote login follow the steps found here
 
-<http://web.facilities.udel.edu/docs/technology/VPN.pdf>
+<a href="http://web.facilities.udel.edu/docs/technology/VPN.pdf" target="_blank">http://web.facilities.udel.edu/docs/technology/VPN.pdf</a>
 
 Once these steps have been followed, open the Cisco AnyConnect Secure Mobility Client and log in using the user's UD credentials.
 The user will need an authenticator passcode. You can download an authenticator from the app store on your phone
 
-<https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US&gl=US>
+<a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US&gl=US" target="_blank">Google authenticator</a>
 
 ##WinSCP
 The user will need to remote login to the portal. For windows, this can be done through WinSCP. Instructions on how to download WinSCP can be found here
 
-<https://winscp.net/eng/index.php>
+<a href="https://winscp.net/eng/index.php" target="_blank">https://winscp.net/eng/index.php</a>
 
 Once installed, open the WinSCP program. Fill out the forms in the following format:
 

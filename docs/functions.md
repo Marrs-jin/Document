@@ -1,7 +1,7 @@
 # Necessary scripts
 
 ##Codes
-All the codes can be found at <pre><code><https://github.com/Marrs-jin/WebDesign2> </pre></code>
+All the codes can be found at <pre><code><a href="https://github.com/Marrs-jin/WebDesign2" target="_blank">https://github.com/Marrs-jin/WebDesign2</a></pre></code>
 
 To generate the HTML files for "transition rates" and "matrix elements" pages for a single element, the only code that will be run by the user is TransitionManualInput.py. This code pulls in several other codes as it is running.
 

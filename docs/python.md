@@ -1,7 +1,7 @@
 # Installation
 
 ## Python3
-To run the code Python3 is needed. Users can download Python3 at <pre><code><https://www.python.org/downloads/></pre></code>
+To run the code Python3 is needed. Users can download Python3 at <pre><code><a href="https://www.python.org/downloads/" target="_blank">https://www.python.org/downloads/</a></pre></code>
 
 Once Python is installed, install IPython. IPython is a command shell for interactive Python computing. It can be downloaded
 by opening the command prompt (for example on Windows by typing "cmd" in the search bar) and entering the command <pre><code>pip install ipython</pre></code>
@@ -22,12 +22,12 @@ Required libraries:
 <li>sortedcontainers</li>
 <li>warnings</li>
 </ul>
-Most of the required libraries come with Anaconda at <pre><code><https://www.anaconda.com/products/individual></pre></code>  
+Most of the required libraries come with Anaconda at <pre><code><a href="https://www.anaconda.com/products/individual" target="_blank">https://www.anaconda.com/products/individual</a></pre></code>  
 
 Otherwise, after Python installation run the command <pre><code>pip install [library]</pre></code> For example, "pip install pandas".
 Pip is already installed if you are using a current version of Python.
 ##Jupyter notebook  
-If you would prefer to use the Jupyter editor over command line prompts, you can download Jupyter Notebook at <pre><code><https://jupyter.org/install></pre></code>  
+If you would prefer to use the Jupyter editor over command line prompts, you can download Jupyter Notebook at <pre><code><a href="https://jupyter.org/install" target="_blank">https://jupyter.org/install</a></pre></code>  
 
 Jupyter notebooks are interactive coding environments allowing for instantaneous modification of specific blocks of code. They require an internet connection to run.
 
