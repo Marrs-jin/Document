@@ -8,6 +8,9 @@ nav:
     - Required Functions: 'functions.md'
     - Flowchart: 'flowchart.md'
     - Required Data: 'data.md'
+  - Polarizability:
+    - Required Polarizability Data: 'Pol_data.md'
+    - Creating a page: 'PolarCreation.md'
   - Example:
     - Ba<sup>+</sup> TR, ME, HTMLs generation: 'BaII_html.md'
     - Cs Other HTML generation: "Cs_other.md"
