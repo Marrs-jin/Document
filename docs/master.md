@@ -4,6 +4,9 @@ Shown first is the version using only command line inputs, shown second is using
 
 Note that the Master1 script has the list of elements it will run through. Modify the variable "element_list" if this needs to be changed.
 
+Master1 runs the exact same TransitionManualInput.py and OtherData.py functions. The only difference is that it automatically runs it
+for every element in the list the user has written at the top of its script, instead of requiring manual input of which element to run. 
+
 ## Python3
 Open command prompt. Navigate to the directory with the functions and data folders. The image below shows an example of this directory on a local computer.
 

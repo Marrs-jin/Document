@@ -219,3 +219,17 @@ Metastable_csv files were manually created: opened original metastable .xlsx fil
 in that excel file to their own csv file.   
 Future versions could potentially have excel not joined together at creation, removing need for this.
 Ion hyperfine files have '+' format instead of 'II' format.
+
+#One element change vs All elements change (not a folder)
+The following pages are specific to a single element. Changes to these files will only affect the HTML for that specific element.
+<ul>
+<li> All files relating to data (Data, Experimental_Data, OtherData)
+<li> Element specific button lists in Format_csvs-TransitionRates, MatrixEle
+</ul>
+
+The following pages are used for every page or every page of a specific type. Any change to one of them will affect every HTML page of that type. 
+
+<ul>
+<li> Format_csvs-all other stylings. This would depend on where the change is being made but any of the Intro, mid-table, or End formatting could change and affect all pages.
+<li> Functions
+</ul>
