@@ -19,14 +19,3 @@ All data folders need to be in the same directory as the codes are. The folders 
 **Zip Files** are the text files that would be downloaded when the user clicks on Download Data Button. For combined graphs you need to zip all the data files related to that graph.
 
 When all the graphs are created make the required changes to the main NaPolarizability.html webpage so that correct HTML files are loaded to the iframe section of the page with each click of the button.
-
-
-##TXT Files
-
-##CSV Files
-
-##HTML Files
-
-##Python Scripts
-
-##Zip Files

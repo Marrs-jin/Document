@@ -3,14 +3,20 @@ site_name: MKLorumm
 nav:
   - Basics:
     - Introduction: 'index.md'
+    - Overview: 'overview.md'
   - Setup:
     - Python: 'python.md'
     - Required Functions: 'functions.md'
     - Flowchart: 'flowchart.md'
     - Required Data: 'data.md'
+    - Google Analytics: 'analytics.md'
   - Polarizability:
     - Required Polarizability Data: 'Pol_data.md'
     - Creating a page: 'PolarCreation.md'
+  - Miscellaneous pages:
+    - Home page generation: "how_to_index.md"
+    - About page generation: "how_to_about.md"
+    - Feedback page generation: "how_to_feedback.md"
   - Example:
     - Ba<sup>+</sup> TR, ME, HTMLs generation: 'BaII_html.md'
     - Cs Other HTML generation: "Cs_other.md"

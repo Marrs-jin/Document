@@ -18,6 +18,7 @@ A series of warning messages will display (these are mostly pandas index caveat 
 show the result of comparison between the Python and Fortran77 error formats and a check for duplicated errors, which would throw a warning if found. See image below.
 
 <img src="https://raw.githubusercontent.com/Marrs-jin/Images/main/Code_result.PNG" alt="Directory to run code" width="600" >
+
 The HTML files will be saved into the "ElementsHTMLs" folder.
 
 ##Jupyter notebook  

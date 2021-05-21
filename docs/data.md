@@ -47,11 +47,14 @@ These folders need three files: datapol, rates1, and rates2.
 Using BaII as an example, the folder should have these files in this naming convention:
 <ul>
 <li>datapolBaII.txt</li>
+<li>databaseBaII.txt</li>
 <li>rates1.txt</li>
 <li>rates2.txt</li>
 </ul>
-
+"C:\Users\dmgame\Documents\SafronovaResearch\LifetimesWebsite\Experimental_Data\Key-File.csv"
 **datapol** has the matrix element values, wavelengths, and errors. This is used to calculate transition properties.
+
+**database** has the the matrix elements in (##) error format. This is an outdated file and will be phased out in a future version of the code.
 
 **rates1** has the transition rates, branching ratios, etc. with their errors. This is used in comparison with the Python code to calculate errors to ensure the same result was obtained.
 
@@ -190,6 +193,9 @@ This is the folder where all the HTML files are saved to. There are saved in the
 
 Ions are saved in the format, using Ca<sup>+</sup> as an example, of: CaII.html, CaIITranAuto, etc.
 
+**modal_func.js** and **modal_style.css** are files stored in this folder that control how the buttons handle pop up texts. They are in this folder so that these
+buttons work in the local directory. However, the true modal_func.js and modal_style.css that the web portal pages use is stored directly in the web portal directory.
+
 ##Experimental_Data
 Files, using "Ca" as example:
 
@@ -227,7 +233,7 @@ The following pages are specific to a single element. Changes to these files wil
 <li> Element specific button lists in Format_csvs-TransitionRates, MatrixEle
 </ul>
 
-The following pages are used for every page or every page of a specific type. Any change to one of them will affect every HTML page of that type. 
+The following pages are used for every page or every page of a specific type. Any change to one of them will affect every HTML page of that type.
 
 <ul>
 <li> Format_csvs-all other stylings. This would depend on where the change is being made but any of the Intro, mid-table, or End formatting could change and affect all pages.
