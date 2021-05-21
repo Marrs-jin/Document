@@ -52,6 +52,8 @@
                 <ul>
                     <li class="toctree-l1"><a class="reference internal" href="..">Introduction</a>
                     </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../overview/">Overview</a>
+                    </li>
                 </ul>
                 <p class="caption"><span class="caption-text">Setup</span></p>
                 <ul class="current">
@@ -93,12 +95,23 @@
     </li>
     </ul>
                     </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../analytics/">Google Analytics</a>
+                    </li>
                 </ul>
                 <p class="caption"><span class="caption-text">Polarizability</span></p>
                 <ul>
                     <li class="toctree-l1"><a class="reference internal" href="../Pol_data/">Required Polarizability Data</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../PolarCreation/">Creating a page</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Miscellaneous pages</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../how_to_index/">Home page generation</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../how_to_about/">About page generation</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../how_to_feedback/">Feedback page generation</a>
                     </li>
                 </ul>
                 <p class="caption"><span class="caption-text">Example</span></p>
@@ -116,7 +129,7 @@
                 </ul>
                 <p class="caption"><span class="caption-text">Explanations</span></p>
                 <ul>
-                    <li class="toctree-l1"><a class="" href="../explain.md">functions</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../explain/">functions</a>
                     </li>
                 </ul>
                 <p class="caption"><span class="caption-text">About</span></p>
@@ -198,11 +211,13 @@ These folders need three files: datapol, rates1, and rates2.</p>
 <p>Using BaII as an example, the folder should have these files in this naming convention:</p>
 <ul>
 <li>datapolBaII.txt</li>
+<li>databaseBaII.txt</li>
 <li>rates1.txt</li>
 <li>rates2.txt</li>
 </ul>
-
-<p><strong>datapol</strong> has the matrix element values, wavelengths, and errors. This is used to calculate transition properties.</p>
+<p>"C:\Users\dmgame\Documents\SafronovaResearch\LifetimesWebsite\Experimental_Data\Key-File.csv"
+<strong>datapol</strong> has the matrix element values, wavelengths, and errors. This is used to calculate transition properties.</p>
+<p><strong>database</strong> has the the matrix elements in (##) error format. This is an outdated file and will be phased out in a future version of the code.</p>
 <p><strong>rates1</strong> has the transition rates, branching ratios, etc. with their errors. This is used in comparison with the Python code to calculate errors to ensure the same result was obtained.</p>
 <p><strong>rates2</strong> has the lifetimes with errors. This is used in comparison with the Python code to calculate errors to ensure the same result was obtained.</p>
 <h2 id="format_csvs">Format_csvs</h2>
@@ -305,6 +320,8 @@ Transition rate, Branching ratio".</p>
 <p><strong>XTranFull.html</strong> is the transition rate page displayed when a user clicks the "all" button on a main transition rate page.</p>
 <p><strong>XOther.html</strong> is the other data page.</p>
 <p>Ions are saved in the format, using Ca<sup>+</sup> as an example, of: CaII.html, CaIITranAuto, etc.</p>
+<p><strong>modal_func.js</strong> and <strong>modal_style.css</strong> are files stored in this folder that control how the buttons handle pop up texts. They are in this folder so that these
+buttons work in the local directory. However, the true modal_func.js and modal_style.css that the web portal pages use is stored directly in the web portal directory.</p>
 <h2 id="experimental_data">Experimental_Data</h2>
 <p>Files, using "Ca" as example:</p>
 <ul>
@@ -338,7 +355,7 @@ Ion hyperfine files have '+' format instead of 'II' format.</p>
 <li> Element specific button lists in Format_csvs-TransitionRates, MatrixEle
 </ul>
 
-<p>The following pages are used for every page or every page of a specific type. Any change to one of them will affect every HTML page of that type. </p>
+<p>The following pages are used for every page or every page of a specific type. Any change to one of them will affect every HTML page of that type.</p>
 <ul>
 <li> Format_csvs-all other stylings. This would depend on where the change is being made but any of the Intro, mid-table, or End formatting could change and affect all pages.
 <li> Functions
@@ -350,7 +367,7 @@ Ion hyperfine files have '+' format instead of 'II' format.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../Pol_data/" class="btn btn-neutral float-right" title="Required Polarizability Data">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../analytics/" class="btn btn-neutral float-right" title="Google Analytics">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href="../flowchart/" class="btn btn-neutral" title="Flowchart"><span class="icon icon-circle-arrow-left"></span> Previous</a>
@@ -382,7 +399,7 @@ Ion hyperfine files have '+' format instead of 'II' format.</p>
         <span><a href="../flowchart/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../Pol_data/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../analytics/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
